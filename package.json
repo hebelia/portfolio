@@ -2,12 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "Hebe Lia's portfolio website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "author": "Hebe Lia Romeu<hebeliaromeu@gmail.com>",
   "dependencies": {
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
