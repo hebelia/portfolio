@@ -1,0 +1,112 @@
+header .openMenu {
+  font-size: 1.5rem;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  color: #5f17ce;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.5);
+  height: 40px;
+  display: flex;
+  width: 40px;
+  transform: rotate(180deg);
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  align-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) -2px -2px 10px;
+}
+header .header {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: -100px;
+  right: 0;
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  transition: 500ms;
+  opacity: 0;
+}
+header .header.visible {
+  /* top: 0; */
+  opacity: 1;
+  z-index: 9999;
+  transition: 500ms;
+}
+header .header .closeMenu {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #5f17ce;
+  font-size: 2rem;
+}
+header .header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5rem;
+}
+header .header ul a {
+  color: #5f17ce;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  padding: 5px 0;
+  transition: 500ms;
+  opacity: 0.5;
+}
+header .header ul a.active {
+  transform: scale(1.25);
+  transition: 500ms;
+  opacity: 1;
+}
+
+
+@media (min-width: 768px) {
+  header .openMenu {
+    display: none;
+  }
+  header .header {
+    z-index: 9999;
+    background-color: transparent;
+    backdrop-filter: none;
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    height: auto;
+    overflow: inherit;
+    opacity: 1;
+  }
+  header .header .closeMenu {
+    display: none;
+  }
+  header .header ul {
+    text-align: right;
+  }
+  header .header ul a.active {
+    transform: translateX(-100px);
+  }
+  header .header ul a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(220px, -50%);
+    width: 200px;
+    height: 2px;
+    background-color: #5f17ce;
+  }
+ 
+}

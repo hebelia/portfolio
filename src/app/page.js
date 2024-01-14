@@ -1,12 +1,17 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Loader from "@/components/Loader/Loader";
+import Nav from "@/components/Nav/Nav";
+import { body, title } from "@/assets/fonts/fonts";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={`${title.className}`}>
+      {/* <Loader /> */}
+      <Nav />
       <h1>Hola</h1>
 
-      <div className={styles.description}>
+      <div id="home" className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
