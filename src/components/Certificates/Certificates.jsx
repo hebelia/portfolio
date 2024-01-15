@@ -1,6 +1,8 @@
 import { body, title } from "@/assets/fonts/fonts";
 
-const Contact = () => {
+import React from 'react'
+
+const Certificates = () => {
   return (
     <div>
       
@@ -8,4 +10,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Certificates

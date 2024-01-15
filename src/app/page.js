@@ -18,12 +18,12 @@ import 'nes.css/css/nes.css';
 export default function Home() {
   return (
     <LanguageProvider>
-      <main className={`${title.className}`}>
+      <main className={`${body.className}`}>
         {/* <Loader /> */}
         {/* <Nav /> */}
         <Profile />
 
-        <div className={styles.description}>
+        {/* <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>src/app/page.js</code>
@@ -46,7 +46,7 @@ export default function Home() {
               />
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.center}>
           <Image

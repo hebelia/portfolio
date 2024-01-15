@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import style from "./Nav.css";
+import style from "./Nav.module.css";
 
 const Nav = () => {
   const [menuVisible, setMenuVisible] = useState(false);

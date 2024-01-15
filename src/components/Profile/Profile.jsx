@@ -1,34 +1,15 @@
 "use client";
 
 import React from "react";
+import { body, title } from "@/assets/fonts/fonts";
 
 const Profile = () => {
   return (
     <div>
-      <a class="nes-btn" href="#">
-        Normal
-      </a>
+      <div className={`${body.className}`}>
+        <h1 className={`${title.className}`}></h1>
+      </div>
 
-      <button type="button" class="nes-btn is-primary">
-        Primary
-      </button>
-      <button type="button" class="nes-btn is-success">
-        Success
-      </button>
-      <button type="button" class="nes-btn is-warning">
-        Warning
-      </button>
-      <button type="button" class="nes-btn is-error">
-        Error
-      </button>
-      <button type="button" class="nes-btn is-disabled">
-        Disabled
-      </button>
-
-      <label class="nes-btn"> 
-        <span>Select your file</span>
-        <input type="file" />
-      </label>
     </div>
   );
 };
