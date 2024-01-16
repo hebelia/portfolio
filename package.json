@@ -15,11 +15,13 @@
     "@react-three/fiber": "^8.15.13",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^10.18.0",
+    "i18next": "^23.7.16",
     "nes.css": "^2.3.0",
     "next": "14.0.4",
     "pixelarticons": "^1.7.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-i18next": "^14.0.0",
     "three": "^0.160.0"
   },
   "devDependencies": {
