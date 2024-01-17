@@ -1,8 +1,9 @@
 import { body, title } from "../../../public/fonts/fonts";
+
 import React from "react";
 
-const Footer = () => {
+const Certificates = () => {
   return <div></div>;
 };
 
-export default Footer;
+export default Certificates;

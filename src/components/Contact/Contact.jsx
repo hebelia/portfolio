@@ -1,11 +1,7 @@
-import { body, title } from "@/assets/fonts/fonts";
+import { body, title } from "../../../public/fonts/fonts";
 
 const Contact = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Contact
+export default Contact;

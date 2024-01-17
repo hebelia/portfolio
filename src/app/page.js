@@ -12,8 +12,8 @@ import Profile from "@/components/Profile/Profile";
 
 //fonts & styles
 import styles from "./page.module.css";
-import { body, title } from "@/assets/fonts/fonts";
-import 'nes.css/css/nes.css';
+import { body, title } from "../../public/fonts/fonts";
+import "nes.css/css/nes.css";
 
 export default function Home() {
   return (
