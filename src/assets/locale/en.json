@@ -1,3 +1,19 @@
 {
-    
+  "profile": {
+    "headline": "Headline",
+    "summary": "Summary",
+    "linkedin": "https://www.linkedin.com/in/hebeliaromeu/",
+    "github": "https://github.com/hebelia",
+    "cv": "CV Download Link",
+    "email": "hebeliaromeu@gmail.com"
+  },
+  "skills": {
+    "frontend": ["Skill 1", "Skill 2"],
+    "backend": ["Skill 1", "Skill 2"],
+    "tools": ["Tool 1", "Tool 2"]
+  },
+  "projects": {
+
+  },
+  
 }

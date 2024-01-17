@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div>
       <div className={`${body.className}`}>
-        <h1 className={`${title.className}`}></h1>
+        <h1 className={`${title.className}`}>Hebe Lia Romeu</h1>
       </div>
 
     </div>
