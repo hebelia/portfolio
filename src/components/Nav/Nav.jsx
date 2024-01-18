@@ -43,7 +43,7 @@ const Nav = () => {
           <i className="fa-solid fa-xmark"></i>
         </span>
         <ul className="menu">
-          {["home", "Experience", "Skills", "Certificates", "contact"].map(
+          {["home", "experience", "skills", "certificates", "contact"].map(
             (item, index) => (
               <a
                 href={`#${item}`}
@@ -66,7 +66,7 @@ const Nav = () => {
                       />
                     </svg>
                   )}
-                  {item === "Experience" && (
+                  {item === "experience" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -79,7 +79,7 @@ const Nav = () => {
                       />
                     </svg>
                   )}
-                  {item === "Skills" && (
+                  {item === "skills" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -92,7 +92,7 @@ const Nav = () => {
                       />
                     </svg>
                   )}
-                  {item === "Certificates" && (
+                  {item === "certificates" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"

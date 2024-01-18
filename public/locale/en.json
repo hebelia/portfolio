@@ -1,30 +1,216 @@
 {
+  "buttons": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "skills": "Skills"
+  },
   "profile": {
+    "name": "Hebe Lia Romeu",
+    "subtitle": "",
     "headline": "Headline",
     "summary": "Summary",
     "linkedinLink": "https://www.linkedin.com/in/hebeliaromeu/",
     "github": "https://github.com/hebelia",
     "cv": "CV Download Link",
+    "cvLink": "",
     "email": "hebeliaromeu@gmail.com"
   },
-  "skills": {
-    
-    "frontend": ["Skill 1", "Skill 2"],
-    "backend": ["Skill 1", "Skill 2"],
-    "tools": ["Tool 1", "Tool 2"],
-    "soft":["Proactive leadership", "Active listening"],
-  },
-  "projects": {
 
+  "projects": {
+    "title": "My Projects",
+    "list": [
+      {
+        "name": "",
+        "img": "",
+        "deploy": "",
+        "github": "",
+        "technologies": ["", "", "", ""]
+      },
+      {
+        "name": "",
+        "img": "",
+        "deploy": "",
+        "github": ""
+      },
+      {
+        "name": "",
+        "img": "",
+        "deploy": "",
+        "github": ""
+      },
+      {
+        "name": "",
+        "img": "",
+        "deploy": "",
+        "github": ""
+      },
+      {
+        "name": "",
+        "img": "",
+        "deploy": "",
+        "github": ""
+      }
+    ]
   },
   "testimonials": {
-
+    "title": "Testimonials",
+    "list": [{}]
   },
   "courses": {
-
+    "title": "",
+    "list": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ]
   },
+
   "contact": {
-
+    "title": "Lets Chat!",
+    "subtitle": "Feel free to send me your proposal or questions!",
+    "name": "Name",
+    "namePlaceholder": "Your Name",
+    "email": "Email",
+    "emailPlaceholder": "your_email@domain.com",
+    "message": "Message",
+    "messagePlaceholder": "Write your message and I will give you a response ASAP!",
+    "button": "Send Message",
+    "contactEmail": "hebeliaromeu@gmail.com"
   },
-  
+  "errors": {
+    "fullnameEmpty":"Please fill the name field",
+    "emailEmpty":"Please fill the email field",
+    "subjectEmpty":"Please fill the email field",
+    "messageEmpty":"Please fill the message field",
+    "emailInvalid":"Use a valid email adress please",
+    "messageLong":"The name field cannot be empty",
+    "error":"There was an issue sending the email, please try again or manually contact me through the following email address: hebeliaromeu@gmail"
+  },
+
+  "skills": {
+    "title": "Skills",
+    "frontend": {
+      "title": "Frontend",
+      "list": [
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "list": [
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        }
+      ]
+    },
+    "tools": {
+      "title": "Tools",
+      "list": [
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        }
+      ]
+    },
+    "soft": {
+      "title": "Soft",
+      "list": [
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        },
+        {
+          "name": "",
+          "img": ""
+        }
+      ]
+    }
+  }
 }
