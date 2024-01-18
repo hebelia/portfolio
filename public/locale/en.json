@@ -13,8 +13,8 @@
     "summary": "Summary",
     "linkedinLink": "https://www.linkedin.com/in/hebeliaromeu/",
     "github": "https://github.com/hebelia",
-    "cv": "CV Download Link",
-    "cvLink": "",
+    "cv": "Resume",
+    "cvLink": "https://drive.google.com/file/d/1QTwUFsNA9Qed0gtpGKs9LIh_CiJQbQOB/view?usp=sharing",
     "email": "hebeliaromeu@gmail.com"
   },
 
@@ -32,25 +32,29 @@
         "name": "",
         "img": "",
         "deploy": "",
-        "github": ""
+        "github": "",
+        "technologies": ["", "", "", ""]
       },
       {
         "name": "",
         "img": "",
         "deploy": "",
-        "github": ""
+        "github": "",
+        "technologies": ["", "", "", ""]
       },
       {
         "name": "",
         "img": "",
         "deploy": "",
-        "github": ""
+        "github": "",
+        "technologies": ["", "", "", ""]
       },
       {
         "name": "",
         "img": "",
         "deploy": "",
-        "github": ""
+        "github": "",
+        "technologies": ["", "", "", ""]
       }
     ]
   },
@@ -93,15 +97,15 @@
     "contactEmail": "hebeliaromeu@gmail.com"
   },
   "errors": {
-    "fullnameEmpty":"Please fill the name field",
-    "emailEmpty":"Please fill the email field",
-    "subjectEmpty":"Please fill the email field",
-    "messageEmpty":"Please fill the message field",
-    "emailInvalid":"Use a valid email adress please",
-    "messageLong":"The name field cannot be empty",
-    "error":"There was an issue sending the email, please try again or manually contact me through the following email address: hebeliaromeu@gmail"
+    "fullnameEmpty": "Please fill the name field",
+    "emailEmpty": "Please fill the email field",
+    "subjectEmpty": "Please fill the email field",
+    "messageEmpty": "Please fill the message field",
+    "emailInvalid": "Use a valid email adress please",
+    "messageLong": "The name field cannot be empty",
+    "error": "There was an issue sending the email, please try again or manually contact me through the following email address: hebeliaromeu@gmail"
   },
-
+  
   "skills": {
     "title": "Skills",
     "frontend": {
