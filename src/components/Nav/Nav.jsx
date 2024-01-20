@@ -43,7 +43,7 @@ const Nav = () => {
           <i className="fa-solid fa-xmark"></i>
         </span>
         <ul className="menu">
-          {["home", "experience", "skills", "certificates", "contact"].map(
+          {["home", "projects", "skills", "certificates", "contact"].map(
             (item, index) => (
               <a
                 href={`#${item}`}
@@ -66,7 +66,7 @@ const Nav = () => {
                       />
                     </svg>
                   )}
-                  {item === "experience" && (
+                  {item === "projects" && (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"

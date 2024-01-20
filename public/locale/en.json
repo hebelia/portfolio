@@ -1,10 +1,11 @@
 {
   "buttons": {
     "home": "Home",
-    "experience": "Experience",
+    "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact",
-    "skills": "Skills"
+    "certificates": "Certificates",
+    "contact": "Contact"
+    
   },
   "profile": {
     "name": "Hey there!",
@@ -16,10 +17,11 @@
     "cv": "Resume",
     "cvLink": "https://drive.google.com/file/d/1QTwUFsNA9Qed0gtpGKs9LIh_CiJQbQOB/view?usp=sharing",
     "email": "hebeliaromeu@gmail.com"
+    
   },
 
   "projects": {
-    "title": "My Projects",
+    "title": "Projects & Experiences",
     "list": [
       {
         "name": "This Website!",
@@ -117,7 +119,7 @@
     ]
   },
 
-  "courses": {
+  "certificates": {
     "title": "Certificates",
     "list": [
       {
