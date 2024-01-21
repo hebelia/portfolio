@@ -7,10 +7,10 @@ import es from "./es.json";
 i18n.use(initReactI18next).init({
   resources: {
     en: {
-      translation: translationEN,
+      translation: es,
     },
     es: {
-      translation: translationES,
+      translation: en,
     },
   },
   fallbackLng: "en",
