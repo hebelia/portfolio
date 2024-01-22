@@ -5,7 +5,6 @@
     "projects": "Projects",
     "certificates": "Certificates",
     "contact": "Contact"
-    
   },
   "profile": {
     "name": "Hey there!",
@@ -17,7 +16,6 @@
     "cv": "Resume",
     "cvLink": "https://drive.google.com/file/d/1QTwUFsNA9Qed0gtpGKs9LIh_CiJQbQOB/view?usp=sharing",
     "email": "hebeliaromeu@gmail.com"
-    
   },
 
   "projects": {
@@ -26,8 +24,8 @@
       {
         "name": "This Website!",
         "description": "For this project I decided to learn and test some new technologies and make use of styles that I love: Next .js, Three.js combined with a pixelart aesthetic to create a portfolio website.",
-        "img": "",
-        "deploy": "",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/portfolio",
         "github": "https://github.com/hebelia/portfolio",
         "technologies": [
           "Next.js 14",
@@ -42,17 +40,17 @@
       {
         "name": "NoteNook",
         "description": "Coding Challenge: note taking application developed in a three-day sprint. The application offers a comprehensive suite of features for note management, including creation, editing, archiving, categorization and a script that executes.",
-        "img": "",
-        "deploy": "",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/notenook",
         "github": "https://github.com/hebelia/notenook",
-        "technologies": ["", "", "", ""]
+        "technologies": ["React", "JavaScript", "Node", "PostgreSQL", "Express"]
       },
       {
         "name": "LadyFitLovers",
         "description": "This e-commerce platform focuses on female sports clothing and activewear, emphasizing a smooth user experience with features like secure authentication, streamlined payments, and user-friendly management tools.",
-        "img": "",
+        "img": "/img/profile.jpg",
         "deploy": "https://ladyfitlovers.up.railway.app/",
-        "deployMessage": "Visit our website!",	
+        "deployMessage": "Visit our website!",
         "github": "https://github.com/hebelia/client-ladyfitlovers",
         "technologies": [
           "JavaScript",
@@ -70,8 +68,8 @@
       {
         "name": "World Trip App",
         "description": "SPA that utilizes a public API to display international flags with a responsive user interface for intuitive navigation and optimal viewing on various devices.",
-        "img": "",
-        "deploy": "",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/Countries-App",
         "github": "https://github.com/hebelia/Countries-App",
         "technologies": [
           "React",
@@ -87,8 +85,8 @@
       {
         "name": "Integration project - Rick & Morty",
         "description": "SPA for exploring characters from 'Rick & Morty', incorporating features such as favourites and detailed character profiles, using pure CSS for styling and responsive design.",
-        "img": "",
-        "deploy": "",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/Integration-Project",
         "github": "https://github.com/hebelia/Integration-Project",
         "technologies": [
           "React",
@@ -104,8 +102,8 @@
       {
         "name": "Dynamic Web Portfolio App",
         "description": "This project is a full-stack web application designed as an online portfolio. It will display personal information, educational background, work experience, technological knowledge, and skills. The application features a distributed architecture, including a user interface (front end) to present the information, a database to store entered data, and the necessary APIs (back end) to provide this information over the internet.",
-        "img": "",
-        "deploy": "https://portfolio-frontend-hlr.web.app/#education",
+        "img": "/img/profile.jpg",
+        "deploy": "https://portfolio-frontend-hlr.web.app/",
         "github": "https://github.com/hebelia/front-end",
         "technologies": [
           "Java",
@@ -202,7 +200,7 @@
         "title": "Slovenian Association Triglav Rosario",
         "description": "Founded with the aim of preserving and promoting Slovenian culture and heritage, Asociación Eslovena Triglav Rosario has been a cornerstone in the community since its inception. In my role as a collaborator over the past 4 years and 7 months, I have contributed significantly to the Arts and Culture sector of the association. My key involvements include: planning and executing cultural events, playing versatile roles in major events like 'Colectividades', and engaging in fundraising to support Slovenian cultural initiatives.",
         "date": "2019 - Present",
-        "img": "",
+        "img": "/img/profile.jpg",
         "link": "https://www.linkedin.com/in/hebeliaromeu/details/volunteering-experiences/",
         "linkText": "Learn more about my involvement in volunteering activities!"
       },
@@ -210,7 +208,7 @@
         "title": "Teaching Assitant (TA)",
         "description": "As a dedicated Teaching Assistant at Henry, I contributed to the success of incoming students by helping them smoothly transition into their new academic environment. In this role, I provided support to the Henry program, working closely with new students to facilitate their adaptation and integration. This certificate and the 'Proactive' insignia signify my capacity to transform ideas into tangible actions, take ownership of my behaviour, and approach challenges as chances for personal growth and development during my tenure as a teaching assistant at #soyhenry, as well as my contribution to the community.",
         "date": "2023",
-        "img": "",
+        "img": "/img/profile.jpg",
         "link": "https://www.linkedin.com/in/hebeliaromeu/details/volunteering-experiences/",
         "linkText": "Learn more about my involvement in volunteering activities!"
       }
@@ -246,27 +244,23 @@
       "list": [
         {
           "name": "JavaScript",
-          "img": ""
+          "img": "devicon-javascript-plain colored"
         },
         {
           "name": "Java",
-          "img": ""
+          "img": "devicon-java-plain colored"
         },
         {
           "name": "TypeScript",
-          "img": ""
+          "img": "devicon-typescript-plain colored"
         },
         {
           "name": "HTML5",
-          "img": ""
+          "img": "devicon-html5-plain colored"
         },
         {
           "name": "CSS",
-          "img": ""
-        },
-        {
-          "name": "AJAX",
-          "img": ""
+          "img": "devicon-css3-plain colored"
         }
       ]
     },
@@ -275,43 +269,39 @@
       "list": [
         {
           "name": "React",
-          "img": ""
+          "img": "devicon-react-original colored"
         },
         {
           "name": "Redux",
-          "img": ""
+          "img": "devicon-redux-original colored"
         },
         {
           "name": "Angular",
-          "img": ""
+          "img": "devicon-angularjs-plain colored"
         },
         {
           "name": "Node",
-          "img": ""
+          "img": "devicon-nodejs-plain colored"
         },
         {
           "name": "Express",
-          "img": ""
+          "img": "devicon-express-original colored"
         },
         {
           "name": "Sequelize",
-          "img": ""
+          "img": "devicon-sequelize-plain colored"
         },
         {
           "name": "Tailwind",
-          "img": ""
-        },
-        {
-          "name": "Sequelize",
-          "img": ""
+          "img": "devicon-tailwindcss-plain colored"
         },
         {
           "name": "AntDesign",
-          "img": ""
+          "img": "ant"
         },
         {
           "name": "Spring Boot",
-          "img": ""
+          "img": "devicon-spring-plain colored"
         }
       ]
     },
@@ -320,43 +310,43 @@
       "list": [
         {
           "name": "Google Cloud",
-          "img": ""
+          "img": "devicon-googlecloud-plain colored"
         },
         {
           "name": "MySQL",
-          "img": ""
+          "img": "devicon-mysql-plain colored"
         },
         {
           "name": "PostgreSQL",
-          "img": ""
+          "img": "devicon-postgresql-plain colored"
         },
         {
           "name": "Postman",
-          "img": ""
+          "img": "postman"
         },
         {
           "name": "MercadoPago",
-          "img": ""
+          "img": "mp"
         },
         {
           "name": "Nodemailer",
-          "img": ""
+          "img": "nodemailer"
         },
         {
           "name": "Git",
-          "img": ""
+          "img": "devicon-git-plain colored"
         },
         {
           "name": "Trello",
-          "img": ""
+          "img": "devicon-trello-plain colored"
         },
         {
           "name": "Firebase",
-          "img": ""
+          "img": "devicon-firebase-plain colored"
         },
         {
           "name": "Railway",
-          "img": ""
+          "img": "railway"
         }
       ]
     },
@@ -365,19 +355,19 @@
       "list": [
         {
           "name": "Active listening",
-          "img": ""
+          "img": "listen"
         },
         {
           "name": "Teamwork & Empathy",
-          "img": ""
+          "img": "team"
         },
         {
           "name": "Accountability",
-          "img": ""
+          "img": "accountability"
         },
         {
           "name": "Perseverance",
-          "img": ""
+          "img": "perseverance"
         }
       ]
     }
