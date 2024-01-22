@@ -66,7 +66,7 @@
         ]
       },
       {
-        "name": "World Trip App",
+        "name": "World Trip",
         "description": "SPA that utilizes a public API to display international flags with a responsive user interface for intuitive navigation and optimal viewing on various devices.",
         "img": "/img/profile.jpg",
         "deploy": "https://github.com/hebelia/Countries-App",
@@ -101,7 +101,7 @@
       },
       {
         "name": "Dynamic Web Portfolio App",
-        "description": "This project is a full-stack web application designed as an online portfolio. It will display personal information, educational background, work experience, technological knowledge, and skills. The application features a distributed architecture, including a user interface (front end) to present the information, a database to store entered data, and the necessary APIs (back end) to provide this information over the internet.",
+        "description": "This project is a full-stack web application designed as an online portfolio. It displays personal information, educational background, work experience, technological knowledge, and skills. The application features a distributed architecture, including a user interface (front end) to present the information, a database to store entered data, and the necessary APIs (back end) to provide this information over the internet.",
         "img": "/img/profile.jpg",
         "deploy": "https://portfolio-frontend-hlr.web.app/",
         "github": "https://github.com/hebelia/front-end",
@@ -177,7 +177,7 @@
       },
       {
         "title": "EF SET Certificate: C2 Proficient",
-        "entity": "Henry",
+        "entity": "EFSET",
         "dateText": "Certified on ",
         "date": "Oct 2023",
         "link": "https://drive.google.com/file/d/1eR3S85_6unsLUax_Jl04184_Bz3Z9Gsr/view?usp=sharing",
@@ -198,7 +198,7 @@
     "list": [
       {
         "title": "Slovenian Association Triglav Rosario",
-        "description": "Founded with the aim of preserving and promoting Slovenian culture and heritage, Asociación Eslovena Triglav Rosario has been a cornerstone in the community since its inception. In my role as a collaborator over the past 4 years and 7 months, I have contributed significantly to the Arts and Culture sector of the association. My key involvements include: planning and executing cultural events, playing versatile roles in major events like 'Colectividades', and engaging in fundraising to support Slovenian cultural initiatives.",
+        "description": "Founded with the aim of preserving and promoting Slovenian culture and heritage, Asociación Eslovena Triglav Rosario has been a cornerstone in the community since its inception. In my role as a collaborator over the past 5 years, I have contributed significantly to the Arts and Culture sector of the association. My key involvements include: planning and executing cultural events, playing versatile roles in major events like 'Colectividades', and engaging in fundraising to support Slovenian cultural initiatives.",
         "date": "2019 - Present",
         "img": "/img/profile.jpg",
         "link": "https://www.linkedin.com/in/hebeliaromeu/details/volunteering-experiences/",
@@ -230,7 +230,7 @@
   "errors": {
     "fullnameEmpty": "Please fill the name field",
     "emailEmpty": "Please fill the email field",
-    "subjectEmpty": "Please fill the email field",
+    "subjectEmpty": "Please fill the subject field",
     "messageEmpty": "Please fill the message field",
     "emailInvalid": "Use a valid email adress please",
     "messageLong": "The name field cannot be empty",
@@ -265,7 +265,7 @@
       ]
     },
     "frameworks": {
-      "title": "Framworks & Libraries",
+      "title": "Frameworks & Libraries",
       "list": [
         {
           "name": "React",
@@ -306,7 +306,7 @@
       ]
     },
     "tools": {
-      "title": "Tools",
+      "title": "Some of my tools",
       "list": [
         {
           "name": "Google Cloud",
@@ -351,7 +351,7 @@
       ]
     },
     "soft": {
-      "title": "Soft",
+      "title": "Soft skills",
       "list": [
         {
           "name": "Active listening",

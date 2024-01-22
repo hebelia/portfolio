@@ -1,11 +1,378 @@
 {
-    
+  "buttons": {
+    "home": "Inicio",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "certificates": "Certificados",
+    "contact": "Contacto"
+  },
+  "profile": {
+    "name": "Buenas!",
+    "subtitle": "Soy Hebe Lia",
+    "headline": "Una Software Developer de Argentina (oﾟvﾟ)ノ",
+    "summary": "¡Bienvenido a mi espacio! Como desarrolladora de software con un corazón inclinado hacia lo retro y los píxeles, mi viaje comenzó con una pasión por la tecnología. Es un mundo donde la creatividad se encuentra con el código, y cada línea que escribo es un paso hacia la construcción de aplicaciones y herramientas intuitivas y accesibles.",
+    "linkedinLink": "https://www.linkedin.com/in/hebeliaromeu/",
+    "github": "https://github.com/hebelia",
+    "cv": "Curriculum",
+    "cvLink": "https://drive.google.com/file/d/1ebzNnr_B_WDmrCdMY8cmTTuCFWv4f42-/view?usp=sharing",
+    "email": "hebeliaromeu@gmail.com"
+  },
+
+  "projects": {
+    "title": "Proyectos & Experiencias",
+    "list": [
+      {
+        "name": "Este sitio!",
+        "description": "Para este proyecto, decidí aprender y probar algunas tecnologías nuevas y utilizar estilos que me encantan: Next.js y Three.js combinados con una estética de arte pixelado para crear un sitio web de portafolio.",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/portfolio",
+        "github": "https://github.com/hebelia/portfolio",
+        "technologies": [
+          "Next.js 14",
+          "MagicaVoxel",
+          "Three.js",
+          "Framer Motion",
+          "Nes.css",
+          "React",
+          "Mail.js"
+        ]
+      },
+      {
+        "name": "NoteNook",
+        "description": "Challenge: aplicación para tomar notas desarrollada en un sprint de tres días. La aplicación ofrece un conjunto completo de funciones para la gestión de notas, incluyendo la creación, edición, archivo, categorización y un script que se ejecuta.",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/notenook",
+        "github": "https://github.com/hebelia/notenook",
+        "technologies": ["React", "JavaScript", "Node", "PostgreSQL", "Express"]
+      },
+      {
+        "name": "LadyFitLovers",
+        "description": "Este e-commerce se centra en ropa deportiva y de actividad física para mujeres, enfatizando una experiencia de usuario fluida con características como autenticación segura, pagos simplificados y herramientas de gestión amigables para el usuario.",
+        "img": "/img/profile.jpg",
+        "deploy": "https://ladyfitlovers.up.railway.app/",
+        "deployMessage": "Visit our website!",
+        "github": "https://github.com/hebelia/client-ladyfitlovers",
+        "technologies": [
+          "JavaScript",
+          "React",
+          "Redux",
+          "Node.js",
+          "Nodemon",
+          "Railway",
+          "AntDesign",
+          "Express",
+          "Sequelize",
+          "Nodemailer"
+        ]
+      },
+      {
+        "name": "World Trip",
+        "description": "SPA que utiliza una API pública para mostrar banderas internacionales con una interfaz de usuario adaptable, facilitando una navegación intuitiva y una visualización óptima en diversos dispositivos.",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/Countries-App",
+        "github": "https://github.com/hebelia/Countries-App",
+        "technologies": [
+          "React",
+          "Redux",
+          "Node",
+          "Pure CSS",
+          "Express",
+          "PostgreSQL",
+          "Sequelize",
+          "HTML5"
+        ]
+      },
+      {
+        "name": "Proyecto Integrador - Rick & Morty",
+        "description": "SPA para explorar personajes de 'Rick & Morty', incorporando características como favoritos y perfiles detallados de personajes, utilizando CSS puro para el estilo y diseño adaptable.",
+        "img": "/img/profile.jpg",
+        "deploy": "https://github.com/hebelia/Integration-Project",
+        "github": "https://github.com/hebelia/Integration-Project",
+        "technologies": [
+          "React",
+          "Redux",
+          "Node",
+          "Pure CSS",
+          "Express",
+          "PostgreSQL",
+          "Sequelize",
+          "HTML5"
+        ]
+      },
+      {
+        "name": "Portfolio Web Dinámico",
+        "description": "Este proyecto es una aplicación web full-stack diseñada como un portafolio en línea. Muestra información personal, formación educativa, experiencia laboral, conocimientos tecnológicos y habilidades. La aplicación cuenta con una arquitectura distribuida, incluyendo una interfaz de usuario (front end) para presentar la información, una base de datos para almacenar los datos ingresados y las APIs necesarias (back end) para proporcionar esta información a través de internet.",
+        "img": "/img/profile.jpg",
+        "deploy": "https://portfolio-frontend-hlr.web.app/",
+        "github": "https://github.com/hebelia/front-end",
+        "technologies": [
+          "Java",
+          "Typescript",
+          "Angular",
+          "Bootstrap",
+          "Render",
+          "Firebase"
+        ]
+      }
+    ]
+  },
+
+  "certificates": {
+    "title": "Certificados",
+    "list": [
+      {
+        "title": "Full Stack Developer",
+        "entity": "Henry",
+        "dateText": "Certificado en ",
+        "date": "Oct 2023",
+        "link": "https://drive.google.com/file/d/1xdDegbmN8cti-QLQ-rYP8_1aWFZOxX0i/view?usp=sharing",
+        "skills": [
+          "JavaScript",
+          "React",
+          "Redux",
+          "ECMAScript",
+          "Node",
+          "Scrum",
+          "Express",
+          "Sequelize",
+          "AJAX",
+          "Testing",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Full Stack Developer Junior",
+        "entity": "Ministerio de Economía de Argentina & INTI",
+        "dateText": "Certificado en ",
+        "date": "Ene 2023",
+        "link": "https://drive.google.com/file/d/10r9cjqzg94nf3HEeLrnyb9mGO2O7O_h3/view?usp=sharing",
+        "skills": [
+          "Java",
+          "TypeScript",
+          "Angular",
+          "Metodologías Ágiles",
+          "Bootstrap",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Asistente de Enseñanza",
+        "entity": "Henry",
+        "dateText": "Certificado en ",
+        "date": "Oct 2023",
+        "link": "https://drive.google.com/file/d/1qPUntE_eFBrq0qhQcA-ILt1pkXRgHOz8/view?usp=sharing",
+        "skills": ["Coordinación de Equipo", "Colaboración"]
+      },
+      {
+        "title": "Programación desde Cero",
+        "entity": "egg",
+        "dateText": "Certificado en ",
+        "date": "Oct 2022",
+        "link": "https://drive.google.com/file/d/1idRM3UnMlwRDNoKBGmvo_IuX9eLefDAJ/view?usp=sharing",
+        "skills": [
+          "Fundamentos de Programación",
+          "Lógica Algorítmica",
+          "Pensamiento Matemático"
+        ]
+      },
+      {
+        "title": "Certificado EF SET: Nivel C2 Proficient",
+        "entity": "EFSET",
+        "dateText": "Certificado en ",
+        "date": "Oct 2023",
+        "link": "https://drive.google.com/file/d/1eR3S85_6unsLUax_Jl04184_Bz3Z9Gsr/view?usp=sharing",
+        "skills": ["Inglés"]
+      },
+      {
+        "title": "Certificate Advanced in English(CAE)",
+        "entity": "Cambridge English Language Assessment",
+        "dateText": "Certificado en ",
+        "date": "Dec 2015",
+        "link": "https://drive.google.com/file/d/1TPU7LEQzDnyqwSE6v-broDetckFuCVEz/view?usp=sharing",
+        "skills": ["Inglés"]
+      }
+    ]
+  },
+  "volunteering": {
+    "title": "Actividades",
+    "list": [
+      {
+        "title": "Asociación Eslovena Triglav Rosario",
+        "description": "Fundada con el objetivo de preservar y promover la cultura y herencia eslovena, la Asociación Eslovena Triglav Rosario ha sido un pilar en la comunidad desde su inicio. En mi rol como colaboradora durante los últimos 5 años, he contribuido significativamente al sector de Artes y Cultura de la asociación. Mis principales involucramientos incluyen: planificación y ejecución de eventos culturales, desempeñando roles versátiles en eventos importantes como 'Colectividades', y participando en recaudación de fondos para apoyar iniciativas culturales eslovenas.",
+        "date": "2019 - Presente",
+        "img": "/img/profile.jpg",
+        "link": "https://www.linkedin.com/in/hebeliaromeu/details/volunteering-experiences/",
+        "linkText": "¡Aprende más sobre mi participación en actividades de voluntariado!"
+      },
+      {
+        "title": "Asistente de Enseñanza(TA)",
+        "description": "Como Asistente de Enseñanza en Henry, contribuí al éxito de los estudiantes entrantes ayudándoles a realizar una transición suave a su nuevo entorno académico. En este rol, brindé apoyo al programa Henry, trabajando de cerca con nuevos estudiantes para facilitar su adaptación e integración. Este certificado y la insignia 'Proactiva' significan mi capacidad para transformar ideas en acciones tangibles, asumir la responsabilidad de mi comportamiento y abordar los desafíos como oportunidades de crecimiento y desarrollo personal durante mi tiempo como asistente de enseñanza en Henry, así como mi contribución a la comunidad.",
+        "date": "2023",
+        "img": "/img/profile.jpg",
+        "link": "https://www.linkedin.com/in/hebeliaromeu/details/volunteering-experiences/",
+        "linkText": "¡Aprende más sobre mi participación en actividades de voluntariado!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "¡Hablemos!",
+    "subtitle": "¡Envíame tu propuesta o pregunta!",
+    "name": "Nombre",
+    "namePlaceholder": "Tu Nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tu_correo@dominio.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje y te responderé lo antes posible",
+    "button": "Enviar Mensaje",
+    "contactEmail": "hebeliaromeu@gmail.com"
+  },
+  "errors": {
+    "fullnameEmpty": "Por favor, completa el campo de nombre",
+    "emailEmpty": "Por favor, completa el campo de correo electrónico",
+    "subjectEmpty": "Por favor, completa el campo de asunto",
+    "messageEmpty": "Por favor, completa el campo de mensaje",
+    "emailInvalid": "Por favor, utiliza una dirección de correo electrónico válida",
+    "messageLong": "El campo de nombre no puede estar vacío",
+    "error": "Hubo un problema al enviar el correo electrónico, por favor intenta nuevamente o contáctame manualmente a través de la siguiente dirección de correo electrónico: hebeliaromeu@gmail"
+  },
+
+  "skills": {
+    "title": "Habilidades",
+    "tech": {
+      "title": "Tecnologías",
+      "list": [
+        {
+          "name": "JavaScript",
+          "img": "devicon-javascript-plain colored"
+        },
+        {
+          "name": "Java",
+          "img": "devicon-java-plain colored"
+        },
+        {
+          "name": "TypeScript",
+          "img": "devicon-typescript-plain colored"
+        },
+        {
+          "name": "HTML5",
+          "img": "devicon-html5-plain colored"
+        },
+        {
+          "name": "CSS",
+          "img": "devicon-css3-plain colored"
+        }
+      ]
+    },
+    "frameworks": {
+      "title": "Frameworks & Librerias",
+      "list": [
+        {
+          "name": "React",
+          "img": "devicon-react-original colored"
+        },
+        {
+          "name": "Redux",
+          "img": "devicon-redux-original colored"
+        },
+        {
+          "name": "Angular",
+          "img": "devicon-angularjs-plain colored"
+        },
+        {
+          "name": "Node",
+          "img": "devicon-nodejs-plain colored"
+        },
+        {
+          "name": "Express",
+          "img": "devicon-express-original colored"
+        },
+        {
+          "name": "Sequelize",
+          "img": "devicon-sequelize-plain colored"
+        },
+        {
+          "name": "Tailwind",
+          "img": "devicon-tailwindcss-plain colored"
+        },
+        {
+          "name": "AntDesign",
+          "img": "ant"
+        },
+        {
+          "name": "Spring Boot",
+          "img": "devicon-spring-plain colored"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Algunas de mis herramientas",
+      "list": [
+        {
+          "name": "Google Cloud",
+          "img": "devicon-googlecloud-plain colored"
+        },
+        {
+          "name": "MySQL",
+          "img": "devicon-mysql-plain colored"
+        },
+        {
+          "name": "PostgreSQL",
+          "img": "devicon-postgresql-plain colored"
+        },
+        {
+          "name": "Postman",
+          "img": "postman"
+        },
+        {
+          "name": "MercadoPago",
+          "img": "mp"
+        },
+        {
+          "name": "Nodemailer",
+          "img": "nodemailer"
+        },
+        {
+          "name": "Git",
+          "img": "devicon-git-plain colored"
+        },
+        {
+          "name": "Trello",
+          "img": "devicon-trello-plain colored"
+        },
+        {
+          "name": "Firebase",
+          "img": "devicon-firebase-plain colored"
+        },
+        {
+          "name": "Railway",
+          "img": "railway"
+        }
+      ]
+    },
+    "soft": {
+      "title": "Habilidades blandas",
+      "list": [
+        {
+          "name": "Escucha activa",
+          "img": "listen"
+        },
+        {
+          "name": "Trabajo en equipo & Empatía",
+          "img": "team"
+        },
+        {
+          "name": "Responsabilidad",
+          "img": "accountability"
+        },
+        {
+          "name": "Perseverancia",
+          "img": "perseverance"
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "list": [{}]
+  }
 }
-
-https://drive.google.com/file/d/1ebzNnr_B_WDmrCdMY8cmTTuCFWv4f42-/view?usp=sharing
-
-
-
-https://icon-sets.iconify.design/pixelarticons/contact-plus/
-
-https://nostalgic-css.github.io/NES.css/
