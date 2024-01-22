@@ -1,5 +1,9 @@
+// "use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
+// import "../i18next";
+import "../../public/locale/i18next";
+import { useTranslation } from "react-i18next";
 
 const inter = Inter({ subsets: ["latin"] });
 
