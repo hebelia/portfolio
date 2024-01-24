@@ -1,9 +1,7 @@
-// "use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
-// import "../i18next";
-import "../../public/locale/i18next";
-import { useTranslation } from "react-i18next";
+import en from "../../public/locale/en.json";
+import es from "../../public/locale/es.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,11 +9,10 @@ export const metadata = {
   title: "Hebe Lia Romeu *:･ﾟ✧",
   description: "Welcome to my portfolio website!",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

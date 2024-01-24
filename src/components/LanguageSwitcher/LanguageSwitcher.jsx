@@ -1,13 +1,19 @@
 "use client";
+//language
+import useTranslation from "../../hooks/useTranslation";
 
-import React from "react";
+//fonts & styles
+import styles from "./page.module.css";
+import { body, title } from "../../public/fonts/fonts";
+import "nes.css/css/nes.css";
 
-const LanguageSwitcher = ({ toggleLanguage, language }) => {
+export default function LanguageSwitcher() {
+  const { t, switchLanguage } = useTranslation();
+
   return (
-    <button onClick={toggleLanguage}>
-      {language === "en" ? "Español" : "English"}
-    </button>
+    <div>
+      <button onClick={() => switchLanguage("es")}>Español</button>
+      <button onClick={() => switchLanguage("en")}>English</button>
+    </div>
   );
-};
-
-export default LanguageSwitcher;
+}
