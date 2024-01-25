@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import en from "../../public/locale/en.json";
 import es from "../../public/locale/es.json";
-
+import { LanguageProvider } from "../hooks/languageContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -12,7 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        {/* <link rel="icon" href="/img/logo.svg" type="image/svg+xml" /> */}
+        <link rel="alternate icon" href="/favicon/favicon.ico" />
+      </head>
+      <body>
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   );
 }

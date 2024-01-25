@@ -3,12 +3,14 @@
 import useTranslation from "../../hooks/useTranslation";
 
 //fonts & styles
-import styles from "./page.module.css";
-import { body, title } from "../../public/fonts/fonts";
+import { body, title } from "../../../public/fonts/fonts";
 import "nes.css/css/nes.css";
 
+import React, { useContext } from 'react';
+import { LanguageContext } from '../../hooks/languageContext';
+
 export default function LanguageSwitcher() {
-  const { t, switchLanguage } = useTranslation();
+  const { switchLanguage } = useContext(LanguageContext);
 
   return (
     <div>

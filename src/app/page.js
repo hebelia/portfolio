@@ -2,7 +2,7 @@
 //next imports
 import Image from "next/image";
 import React from "react";
-
+import Head from "next/head";
 //language
 import useTranslation from "../hooks/useTranslation";
 
@@ -10,6 +10,7 @@ import useTranslation from "../hooks/useTranslation";
 import Loader from "@/components/Loader/Loader";
 import Nav from "@/components/Nav/Nav";
 import Profile from "@/components/Profile/Profile";
+import Header from "@/components/Header/Header";
 
 //fonts & styles
 import styles from "./page.module.css";
@@ -21,6 +22,7 @@ export default function Home() {
 
   return (
     <main className={`${body.className}`}>
+      <Header/>
       {/* <Loader /> */}
       {/* <Nav /> */}
       <Profile />
