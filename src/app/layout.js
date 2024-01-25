@@ -3,6 +3,7 @@ import "./globals.css";
 import en from "../../public/locale/en.json";
 import es from "../../public/locale/es.json";
 import { LanguageProvider } from "../hooks/languageContext";
+import { ThemeProvider } from "../hooks/themeContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,7 +18,9 @@ export default function RootLayout({ children }) {
         <link rel="alternate icon" href="/favicon/favicon.ico" />
       </head>
       <body>
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          <ThemeProvider>{children}</ThemeProvider>
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -1,10 +1,13 @@
 "use client";
 //next imports
 import Image from "next/image";
-import React from "react";
+import React, { useContext } from "react";
 import Head from "next/head";
+
 //language
 import useTranslation from "../hooks/useTranslation";
+//theme
+import { ThemeContext } from "../hooks/themeContext";
 
 // components
 import Loader from "@/components/Loader/Loader";
@@ -19,6 +22,8 @@ import "nes.css/css/nes.css";
 
 export default function Home() {
   const { t, switchLanguage } = useTranslation();
+  
+  const { theme, switchTheme } = useContext(ThemeContext);
 
   return (
     <main className={`${body.className}`}>
@@ -26,7 +31,7 @@ export default function Home() {
       {/* <Loader /> */}
       {/* <Nav /> */}
       <Profile />
-
+      Current theme: {theme}
       <h1>{t.buttons && t.buttons.home}</h1>
       <p>{t.profile && t.profile.subtitle}</p>
       <button onClick={() => switchLanguage("es")}>Español</button>
