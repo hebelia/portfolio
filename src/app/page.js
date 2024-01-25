@@ -26,16 +26,15 @@ export default function Home() {
   const { theme, switchTheme } = useContext(ThemeContext);
 
   return (
-    <main className={`${body.className}`}>
+    <main className={`${body.className} ${styles.main}`}>
       <Header/>
       {/* <Loader /> */}
       {/* <Nav /> */}
       <Profile />
       Current theme: {theme}
-      <h1>{t.buttons && t.buttons.home}</h1>
+      <h1 >{t.buttons && t.buttons.home}</h1>
       <p>{t.profile && t.profile.subtitle}</p>
-      <button onClick={() => switchLanguage("es")}>Español</button>
-      <button onClick={() => switchLanguage("en")}>English</button>
+
     </main>
   );
 }

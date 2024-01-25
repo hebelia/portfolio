@@ -6,10 +6,11 @@ import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher'
 
 import { body, title } from "../../../public/fonts/fonts";
 import "nes.css/css/nes.css";
+import styles from "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className='help'>
         Loguito por aqui o algo asi
 
         agregar efecto con javascript por scroll
