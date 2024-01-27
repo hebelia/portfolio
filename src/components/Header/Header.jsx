@@ -10,7 +10,7 @@ import styles from "./Header.css";
 
 const Header = () => {
   return (
-    <div className='help'>
+    <div>
         Loguito por aqui o algo asi
 
         agregar efecto con javascript por scroll
