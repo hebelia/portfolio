@@ -14,6 +14,12 @@ import Loader from "@/components/Loader/Loader";
 import Nav from "@/components/Nav/Nav";
 import Profile from "@/components/Profile/Profile";
 import Header from "@/components/Header/Header";
+import ModelViewer from "@/components/ModelViewer/ModelViewer";
+import Projects from "@/components/Projects/Projects";
+import Certificates from "@/components/Education/Certificates";
+import Volunteering from "@/components/Volunteering/Volunteering";
+import Contact from "@/components/Contact/Contact";
+import Skills from "@/components/Skills/Skills";
 
 //fonts & styles
 import styles from "./page.module.css";
@@ -22,19 +28,24 @@ import "nes.css/css/nes.css";
 
 export default function Home() {
   const { t, switchLanguage } = useTranslation();
-  
+
   const { theme, switchTheme } = useContext(ThemeContext);
 
   return (
     <main className={`${body.className} ${styles.main}`}>
-      <Header/>
+      <ModelViewer />
+      <Header />
       {/* <Loader /> */}
       {/* <Nav /> */}
       <Profile />
+      {/* <Projects/> */}
+      {/* <Certificates/> */}
+      {/* <Volunteering/> */}
+      <Contact />
+      <Skills />
       Current theme: {theme}
-      <h1 >{t.buttons && t.buttons.home}</h1>
+      <h1>{t.buttons && t.buttons.home}</h1>
       <p>{t.profile && t.profile.subtitle}</p>
-
     </main>
   );
 }

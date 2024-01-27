@@ -1,11 +1,17 @@
 "use client";
 import { useEffect, useState } from "react";
 import style from "./Nav.module.css";
+import "nes.css/css/nes.css";
+import useTranslation from "../../hooks/useTranslation";
 
 const Nav = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
 
+  // translation
+  const { t, switchLanguage } = useTranslation();
+
+  
   const handleScroll = () => {
     const sections = document.querySelectorAll("section");
     const halfHeight = window.innerHeight / 2;
