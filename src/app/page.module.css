@@ -7,8 +7,6 @@
   min-height: 100vh;
   background-color: var(--background-color);
   color: var(--text-color);
-
-
 }
 
 /* Tablet and Smaller Desktop */
@@ -24,7 +22,6 @@
     padding: 1.5rem;
   }
 }
-
 
 @media (prefers-color-scheme: dark) {
 }

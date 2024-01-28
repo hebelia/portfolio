@@ -1,0 +1,177 @@
+
+:root {
+  /* day theme */
+  --background-color-light: #fff;
+  --text-color-light: #000;
+  --main-color-light: #24a077;
+
+  /* night theme */
+  --background-color-dark: #212529;
+  --text-color-dark: #fff;
+  --main-color-dark: #4dd3a6;
+
+  --base-color: base-color;
+  --background-color: background-color;
+
+  /* Default color scheme */
+  --normal-color: var(--background-color);
+  --hover-color: #ddd;
+  --shadow-color: #aaa;
+
+  /* Primary color scheme */
+  --primary-normal-color: #007bff;
+  --primary-hover-color: #0056b3;
+  --primary-shadow-color: #0056b3;
+
+  /* Success color scheme */
+  --success-normal-color: #28a745;
+  --success-hover-color: #218838;
+  --success-shadow-color: #218838;
+
+  /* Warning color scheme */
+  --warning-normal-color: #ffc107;
+  --warning-hover-color: #e0a800;
+  --warning-shadow-color: #e0a800;
+
+  /* Error color scheme */
+  --error-normal-color: #dc3545;
+  --error-hover-color: #c82333;
+  --error-shadow-color: #c82333;
+  /* Mint color scheme */
+  --mint-normal-color: #00b894;
+  --mint-hover-color: #00a384;
+  --mint-shadow-color: #00a384;
+
+  /* Purple color scheme */
+  --purple-normal-color: #9c5cf0;
+  --purple-hover-color: #8f43d6;
+  --purple-shadow-color: #8c2fc2;
+
+  /* Pink color scheme */
+  --pink-normal-color: #ff72c9;
+  --pink-hover-color: #ff37f5;
+  --pink-shadow-color: #b31f9f;
+
+  /* Orange color scheme */
+  --orange-normal-color: #fca402;
+  --orange-hover-color: #db8400;
+  --orange-shadow-color: #9c5e00;
+}
+
+.button-hebelia {
+  --text-color: var(--base-color);
+  --background-color: var(--background-color);
+  --hover-background-color: var(--hover-color);
+  --shadow-color: var(--shadow-color);
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  &::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: "";
+    box-shadow: inset -4px -4px var(--shadow-color);
+  }
+
+  &:hover {
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: var(--hover-background-color);
+
+    &::after {
+      box-shadow: inset -6px -6px var(--shadow-color);
+    }
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 6px rgba(var(--shadow-color), 0.3);
+  }
+
+  &:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px var(--shadow-color);
+  }
+
+  &.is-disabled,
+  &.is-disabled:hover,
+  &.is-disabled:focus {
+    color: var(--base-color);
+    cursor: not-allowed;
+    background-color: var(--normal-color);
+    box-shadow: inset -4px -4px var(--shadow-color);
+    opacity: 0.6;
+  }
+
+  &.is-disabled:hover::after {
+    box-shadow: inset -4px -4px var(--shadow-color);
+  }
+
+  &.is-primary {
+    --text-color: var(--primary-normal-color);
+    --background-color: var(--primary-normal-color);
+    --hover-background-color: var(--primary-hover-color);
+    --shadow-color: var(--primary-shadow-color);
+  }
+
+  &.is-success {
+    --text-color: var(--success-normal-color);
+    --background-color: var(--success-normal-color);
+    --hover-background-color: var(--success-hover-color);
+    --shadow-color: var(--success-shadow-color);
+  }
+
+  &.is-warning {
+    --text-color: var(--warning-normal-color);
+    --background-color: var(--warning-normal-color);
+    --hover-background-color: var(--warning-hover-color);
+    --shadow-color: var(--warning-shadow-color);
+  }
+
+  &.is-error {
+    --text-color: var(--error-normal-color);
+    --background-color: var(--error-normal-color);
+    --hover-background-color: var(--error-hover-color);
+    --shadow-color: var(--error-shadow-color);
+  }
+
+  &.is-mint {
+    --text-color: var(--mint-normal-color);
+    --background-color: var(--mint-normal-color);
+    --hover-background-color: var(--mint-hover-color);
+    --shadow-color: var(--mint-shadow-color);
+  }
+
+  &.is-purple {
+    --text-color: var(--purple-normal-color);
+    --background-color: var(--purple-normal-color);
+    --hover-background-color: var(--purple-hover-color);
+    --shadow-color: var(--purple-shadow-color);
+  }
+
+  &.is-pink {
+    --text-color: var(--pink-normal-color);
+    --background-color: var(--pink-normal-color);
+    --hover-background-color: var(--pink-hover-color);
+    --shadow-color: var(--pink-shadow-color);
+  }
+
+  &.is-orange {
+    --text-color: var(--orange-normal-color);
+    --background-color: var(--orange-normal-color);
+    --hover-background-color: var(--orange-hover-color);
+    --shadow-color: var(--orange-shadow-color);
+  }
+}
+
+.button-hebelia::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px var(--shadow-color);
+}

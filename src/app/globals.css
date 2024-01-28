@@ -1,27 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=VT323&display=swap");
+
 :root {
   /* day theme */
   --background-color-light: #fff;
   --text-color-light: #000;
-
+  --main-color-light: #24a077;
 
   /* night theme */
   --background-color-dark: #212529;
   --text-color-dark: #fff;
+  --main-color-dark: #4dd3a6;
 
+  --base-color: base-color;
+  --background-color: background-color;
+
+  /* Default color scheme */
+  --normal-color: var(--background-color);
+  --hover-color: #ddd;
+  --shadow-color: #aaa;
+
+  /* Primary color scheme */
+  --primary-normal-color: #007bff;
+  --primary-hover-color: #0056b3;
+  --primary-shadow-color: #0056b3;
+
+  /* Success color scheme */
+  --success-normal-color: #28a745;
+  --success-hover-color: #218838;
+  --success-shadow-color: #218838;
+
+  /* Warning color scheme */
+  --warning-normal-color: #ffc107;
+  --warning-hover-color: #e0a800;
+  --warning-shadow-color: #e0a800;
+
+  /* Error color scheme */
+  --error-normal-color: #dc3545;
+  --error-hover-color: #c82333;
+  --error-shadow-color: #c82333;
+  /* Mint color scheme */
+  --mint-normal-color: #00b894;
+  --mint-hover-color: #00a384;
+  --mint-shadow-color: #00a384;
+
+  /* Purple color scheme */
+  --purple-normal-color: #9c5cf0;
+  --purple-hover-color: #8f43d6;
+  --purple-shadow-color: #8c2fc2;
+
+  /* Pink color scheme */
+  --pink-normal-color: #ff72c9;
+  --pink-hover-color: #ff37f5;
+  --pink-shadow-color: #b31f9f;
+
+  /* Orange color scheme */
+  --orange-normal-color: #fca402;
+  --orange-hover-color: #db8400;
+  --orange-shadow-color: #9c5e00;
 }
 
 [data-theme="day"] {
   --background-color: var(--background-color-light);
   --text-color: var(--text-color-light);
+  --main-color: var(--main-color-light);
 }
 
 [data-theme="night"] {
   --background-color: var(--background-color-dark);
   --text-color: var(--text-color-dark);
+  --main-color: var(--main-color-dark);
 }
-
-
-
 
 html,
 body {
@@ -33,5 +81,14 @@ body {
 
   /* FONT */
   font-size: 1rem;
-  font-weight:200;
+  font-weight: 200;
+}
+
+.button-hebelia {
+  font-family: "VT323", monospace;
+  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
 }

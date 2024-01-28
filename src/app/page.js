@@ -20,6 +20,7 @@ import Certificates from "@/components/Education/Certificates";
 import Volunteering from "@/components/Volunteering/Volunteering";
 import Contact from "@/components/Contact/Contact";
 import Skills from "@/components/Skills/Skills";
+import Button from "@/components/Button/Button";
 
 //fonts & styles
 import styles from "./page.module.css";
@@ -46,6 +47,12 @@ export default function Home() {
       Current theme: {theme}
       <h1>{t.buttons && t.buttons.home}</h1>
       <p>{t.profile && t.profile.subtitle}</p>
+
+<Button/>
+
+
+
+
     </main>
   );
 }
