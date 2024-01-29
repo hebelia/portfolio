@@ -42,17 +42,14 @@ export default function Home() {
       {/* <Projects/> */}
       {/* <Certificates/> */}
       {/* <Volunteering/> */}
-      <Contact />
+
       <Skills />
       Current theme: {theme}
       <h1>{t.buttons && t.buttons.home}</h1>
       <p>{t.profile && t.profile.subtitle}</p>
-
-<Button/>
-
-
-
-
+      
+      <Button />
+      <Contact />
     </main>
   );
 }
