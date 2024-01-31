@@ -243,23 +243,23 @@
       "list": [
         {
           "name": "JavaScript",
-          "img": "devicon-javascript-plain colored"
+          "img": "JavaScript"
         },
         {
           "name": "Java",
-          "img": "devicon-java-plain colored"
+          "img": "Java"
         },
         {
           "name": "TypeScript",
-          "img": "devicon-typescript-plain colored"
+          "img": "TypeScript"
         },
         {
           "name": "HTML5",
-          "img": "devicon-html5-plain colored"
+          "img": "HTML5"
         },
         {
           "name": "CSS",
-          "img": "devicon-css3-plain colored"
+          "img": "CSS"
         }
       ]
     },
@@ -268,31 +268,31 @@
       "list": [
         {
           "name": "React",
-          "img": "devicon-react-original colored"
+          "img": "ReactIcon"
         },
         {
           "name": "Redux",
-          "img": "devicon-redux-original colored"
+          "img": "Redux"
         },
         {
           "name": "Angular",
-          "img": "devicon-angularjs-plain colored"
+          "img": "Angular"
         },
         {
           "name": "Node",
-          "img": "devicon-nodejs-plain colored"
+          "img": "Node"
         },
         {
           "name": "Express",
-          "img": "devicon-express-original colored"
+          "img": "Express"
         },
         {
           "name": "Sequelize",
-          "img": "devicon-sequelize-plain colored"
+          "img": "Sequelize"
         },
         {
           "name": "Tailwind",
-          "img": "devicon-tailwindcss-plain colored"
+          "img": "Tailwind"
         },
         {
           "name": "AntDesign",
@@ -300,7 +300,7 @@
         },
         {
           "name": "Spring Boot",
-          "img": "devicon-spring-plain colored"
+          "img": "SpringBoot"
         }
       ]
     },
@@ -309,15 +309,15 @@
       "list": [
         {
           "name": "Google Cloud",
-          "img": "devicon-googlecloud-plain colored"
+          "img": "GoogleCloud"
         },
         {
           "name": "MySQL",
-          "img": "devicon-mysql-plain colored"
+          "img": "MySQL"
         },
         {
           "name": "PostgreSQL",
-          "img": "devicon-postgresql-plain colored"
+          "img": "PostgreSQL"
         },
         {
           "name": "Postman",
@@ -333,15 +333,15 @@
         },
         {
           "name": "Git",
-          "img": "devicon-git-plain colored"
+          "img": "Git"
         },
         {
           "name": "Trello",
-          "img": "devicon-trello-plain colored"
+          "img": "Trello"
         },
         {
           "name": "Firebase",
-          "img": "devicon-firebase-plain colored"
+          "img": "Firebase"
         },
         {
           "name": "Railway",

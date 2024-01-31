@@ -1,10 +1,18 @@
 /* @jsxImportSource react */
-import React from "react";
-// import "devicon/devicon.min.css";
+// import React from "react";
+import styles from "./icons.css";
+import React, { useState, useEffect } from 'react';
+import "devicon/devicon.min.css";
 
 export const postman = () => {
   return (
-    <svg style={{color:"rgb(243, 129, 53)"}} role="img" viewBox="0 0 24 24">
+    <svg
+      className="icons"
+      id="icon"
+      style={{ color: "rgb(243, 129, 53)" }}
+      role="img"
+      viewBox="0 0 24 24"
+    >
       <title>Postman</title>
       <path
         d="M13.527.099C6.955-.744.942 3.9.099 10.473c-.843 6.572 3.8 12.584 10.373 13.428 6.573.843 12.587-3.801 13.428-10.374C24.744 6.955 20.101.943 13.527.099zm2.471 7.485a.855.855 0 0 0-.593.25l-4.453 4.453-.307-.307-.643-.643c4.389-4.376 5.18-4.418 5.996-3.753zm-4.863 4.861l4.44-4.44a.62.62 0 1 1 .847.903l-4.699 4.125-.588-.588zm.33.694l-1.1.238a.06.06 0 0 1-.067-.032.06.06 0 0 1 .01-.073l.645-.645.512.512zm-2.803-.459l1.172-1.172.879.878-1.979.426a.074.074 0 0 1-.085-.039.072.072 0 0 1 .013-.093zm-3.646 6.058a.076.076 0 0 1-.069-.083.077.077 0 0 1 .022-.046h.002l.946-.946 1.222 1.222-2.123-.147zm2.425-1.256a.228.228 0 0 0-.117.256l.203.865a.125.125 0 0 1-.211.117h-.003l-.934-.934-.294-.295 3.762-3.758 1.82-.393.874.874c-1.255 1.102-2.971 2.201-5.1 3.268zm5.279-3.428h-.002l-.839-.839 4.699-4.125a.952.952 0 0 0 .119-.127c-.148 1.345-2.029 3.245-3.977 5.091zm3.657-6.46l-.003-.002a1.822 1.822 0 0 1 2.459-2.684l-1.61 1.613a.119.119 0 0 0 0 .169l1.247 1.247a1.817 1.817 0 0 1-2.093-.343zm2.578 0a1.714 1.714 0 0 1-.271.218h-.001l-1.207-1.207 1.533-1.533c.661.72.637 1.832-.054 2.522zM18.855 6.05a.143.143 0 0 0-.053.157.416.416 0 0 1-.053.45.14.14 0 0 0 .023.197.141.141 0 0 0 .084.03.14.14 0 0 0 .106-.05.691.691 0 0 0 .087-.751.138.138 0 0 0-.194-.033z"
@@ -16,7 +24,13 @@ export const postman = () => {
 
 export const ant = () => {
   return (
-    <svg fill="#ff0000" viewBox="0 0 1024 1024" class="icon" stroke="#ff0000">
+    <svg
+      id="icon"
+      fill="#ff0000"
+      viewBox="0 0 1024 1024"
+      className="icons"
+      stroke="#ff0000"
+    >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -32,7 +46,7 @@ export const ant = () => {
 
 export const mp = () => {
   return (
-    <svg viewBox="0 0 48 48" fill="#0091ff" stroke="#0091ff">
+    <svg id="icon" viewBox="0 0 48 48" fill="#000000" className="icons">
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -41,7 +55,14 @@ export const mp = () => {
       ></g>
       <g id="SVGRepo_iconCarrier">
         <defs>
-          <style></style>
+          <style>
+            {`.a {
+              fill: none;
+              stroke: #0091ff;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+            }`}
+          </style>
         </defs>
         <path
           class="a"
@@ -82,7 +103,13 @@ export const mp = () => {
 
 export const nodemailer = () => {
   return (
-    <svg viewBox="0 0 512 512" id="Layer_1" version="1.1" fill="#000000">
+    <svg
+      id="icon"
+      viewBox="0 0 512 512"
+      version="1.1"
+      fill="#000000"
+      className="icons"
+    >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -123,7 +150,7 @@ export const nodemailer = () => {
 
 export const railway = () => {
   return (
-    <svg fill="#000000" viewBox="0 0 50 50">
+    <svg id="icon" fill="#000000" viewBox="0 0 50 50" className="icons">
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -140,11 +167,12 @@ export const railway = () => {
 export const listen = () => {
   return (
     <svg
+      id="icon"
       version="1.1"
-      id="Uploaded to svgrepo.com"
       viewBox="0 0 32 32"
       fill="#ffd500"
       stroke="#ffd500"
+      className="icons"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
@@ -166,12 +194,13 @@ export const listen = () => {
 export const team = () => {
   return (
     <svg
+      id="icon"
       height="200px"
       width="200px"
       version="1.1"
-      id="Layer_1"
       viewBox="0 0 512 512"
       fill="#000000"
+      className="icons"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
@@ -183,61 +212,61 @@ export const team = () => {
         <g transform="translate(1 1)">
           <g>
             <path
-              style={{fill:"#00DA6C"}}
+              style={{ fill: "#00DA6C" }}
               d="M118.467,50.2c0,23.893-18.773,42.667-42.667,42.667S33.133,74.093,33.133,50.2 S51.907,7.533,75.8,7.533S118.467,26.307,118.467,50.2"
             ></path>
             <path
-              style={{fill:"#00DA6C"}}
+              style={{ fill: "#00DA6C" }}
               d="M127,229.4H24.6v-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2V229.4z"
             ></path>
           </g>
           <path
-            style={{fill:"#FFE100"}}
+            style={{ fill: "#FFE100" }}
             d="M16.067,263.533C16.067,395.8,122.733,502.467,255,502.467S493.933,395.8,493.933,263.533H16.067z"
           ></path>
           <path
-            style={{fill:"#FFA800"}}
+            style={{ fill: "#FFA800" }}
             d="M468.333,263.533c0,128-99.84,232.107-226.133,238.933c4.267,0,8.533,0,12.8,0 c132.267,0,238.933-106.667,238.933-238.933H468.333z"
           ></path>
           <g>
             <path
-              style={{fill:"#00DA6C"}}
+              style={{ fill: "#00DA6C" }}
               d="M297.667,50.2c0,23.893-18.773,42.667-42.667,42.667S212.333,74.093,212.333,50.2 S231.107,7.533,255,7.533S297.667,26.307,297.667,50.2"
             ></path>
             <path
-              style={{fill:"#00DA6C"}}
+              style={{ fill: "#00DA6C" }}
               d="M306.2,229.4H203.8v-51.2c0-28.16,23.04-51.2,51.2-51.2s51.2,23.04,51.2,51.2V229.4z"
             ></path>
             <path
-              style={{fill:"#00DA6C"}}
+              style={{ fill: "#00DA6C" }}
               d="M485.4,50.2c0,23.893-18.773,42.667-42.667,42.667c-23.893,0-42.667-18.773-42.667-42.667 S418.84,7.533,442.733,7.533C466.627,7.533,485.4,26.307,485.4,50.2"
             ></path>
             <path
-              style={{fill:"#00DA6C"}}
+              style={{ fill: "#00DA6C" }}
               d="M493.933,229.4h-102.4v-51.2c0-28.16,23.04-51.2,51.2-51.2c28.16,0,51.2,23.04,51.2,51.2V229.4z"
             ></path>
           </g>
           <g>
             <path
-              style={{fill:"#00AD55"}}
+              style={{ fill: "#00AD55" }}
               d="M442.733,7.533c-4.267,0-8.533,0.853-12.8,2.56C447,15.213,459.8,31.427,459.8,50.2 S447,85.187,429.933,90.307c4.267,1.707,8.533,2.56,12.8,2.56c23.893,0,42.667-18.773,42.667-42.667S466.627,7.533,442.733,7.533"
             ></path>
             <path
-              style={{fill:"#00AD55"}}
+              style={{ fill: "#00AD55" }}
               d="M442.733,127c-4.267,0-8.533,0.853-12.8,1.707c22.187,5.973,38.4,25.6,38.4,49.493v51.2h25.6v-51.2 C493.933,150.04,470.893,127,442.733,127"
             ></path>
           </g>
           <g>
             <path
-              style={{fill:"#FFFFFF"}}
+              style={{ fill: "#FFFFFF" }}
               d="M41.667,263.533c0,128,99.84,232.107,226.133,238.933c-4.267,0-8.533,0-12.8,0 c-132.267,0-238.933-106.667-238.933-238.933H41.667z"
             ></path>
             <path
-              style={{fill:"#FFFFFF"}}
+              style={{ fill: "#FFFFFF" }}
               d="M75.8,7.533c4.267,0,8.533,0.853,12.8,2.56C71.533,15.213,58.733,31.427,58.733,50.2 s12.8,34.987,29.867,40.107c-4.267,1.707-8.533,2.56-12.8,2.56c-23.893,0-42.667-18.773-42.667-42.667S51.907,7.533,75.8,7.533"
             ></path>
             <path
-              style={{fill:"#FFFFFF"}}
+              style={{ fill: "#FFFFFF" }}
               d="M75.8,127c4.267,0,8.533,0.853,12.8,1.707c-22.187,5.973-38.4,25.6-38.4,49.493v51.2H24.6v-51.2 C24.6,150.04,47.64,127,75.8,127"
             ></path>
           </g>
@@ -260,7 +289,7 @@ export const team = () => {
 
 export const accountability = () => {
   return (
-    <svg viewBox="0 0 48 48" fill="none" stroke="">
+    <svg id="icon" viewBox="0 0 48 48" fill="none" stroke="" className="icons">
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -287,13 +316,14 @@ export const accountability = () => {
 export const perseverance = () => {
   return (
     <svg
+      id="icon"
       fill="#389d01"
-      height="200px"
-      width="200px"
+      height="50px"
+      width="50px"
       version="1.1"
-      id="Capa_1"
       viewBox="0 0 59.001 59.001"
       stroke="#389d01"
+      className="icons"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
@@ -312,7 +342,12 @@ export const perseverance = () => {
 
 export const logo = () => {
   return (
-    <svg version="1.1" viewBox="0.00 0.00 605.00 669.00">
+    <svg
+      id="icon"
+      version="1.1"
+      viewBox="0.00 0.00 605.00 669.00"
+      className="icons"
+    >
       <g stroke-width="2.00" fill="none" stroke-linecap="butt">
         <path
           stroke="#0d728c"
@@ -3628,85 +3663,77 @@ export const logo = () => {
 // ------------------------------------ devicons
 
 export const JavaScript = () => {
-  return <i className="devicon-javascript-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-javascript-plain colored icons"></i>;
 };
 
 export const Java = () => {
-  return <i className="devicon-java-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-java-plain colored icons"></i>;
 };
 
 export const TypeScript = () => {
-  return <i className="devicon-typescript-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-typescript-plain colored icons"></i>;
 };
 
 export const HTML5 = () => {
-  return <i className="devicon-html5-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-html5-plain colored icons"></i>;
 };
 
 export const CSS = () => {
-  return <i className="devicon-css3-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-css3-plain colored icons"></i>;
 };
 
 export const ReactIcon = () => {
-  return <i className="devicon-react-original colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-react-original colored icons"></i>;
 };
 
 export const Redux = () => {
-  return <i className="devicon-redux-original colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-redux-original colored icons"></i>;
 };
 
 export const Angular = () => {
-  return <i className="devicon-angularjs-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-angularjs-plain colored icons"></i>;
 };
 
 export const Node = () => {
-  return <i className="devicon-nodejs-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-nodejs-plain colored icons"></i>;
 };
 
 export const Express = () => {
-  return <i className="devicon-express-original colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-express-original colored icons"></i>;
 };
 
 export const Sequelize = () => {
-  return <i className="devicon-sequelize-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-sequelize-plain colored icons"></i>;
 };
 
 export const Tailwind = () => {
-  return <i className="devicon-tailwindcss-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-tailwindcss-plain colored icons"></i>;
 };
 
 export const SpringBoot = () => {
-  return <i className="devicon-spring-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-spring-plain colored icons"></i>;
 };
 
 export const GoogleCloud = () => {
-  return <i className="devicon-googlecloud-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-googlecloud-plain colored icons"></i>;
 };
 
 export const MySQL = () => {
-  return <i className="devicon-mysql-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-mysql-plain colored icons"></i>;
 };
 
 export const PostgreSQL = () => {
-  return <i className="devicon-postgresql-plain colored"></i>;
-};
-
-export const MercadoPago = () => {
-  // Note: MercadoPago does not have a standard Devicon, so you will need to use a custom icon.
-  return <i className="custom-icon-mp"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-postgresql-plain colored icons"></i>;
 };
 
 export const Git = () => {
-  return <i className="devicon-git-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-git-plain colored icons"></i>;
 };
 
 export const Trello = () => {
-  return <i className="devicon-trello-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-trello-plain colored icons"></i>;
 };
 
 export const Firebase = () => {
-  return <i className="devicon-firebase-plain colored"></i>;
+  return <i style={{ fontSize: '5rem' }} id="icon" className="devicon-firebase-plain colored icons"></i>;
 };
-
-
-

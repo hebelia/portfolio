@@ -27,10 +27,11 @@ import {
   Redux,
   ReactIcon,
   HTML5,
+  CSS,
   TypeScript,
   Java,
   JavaScript,
-} from "../../../../public/icons";
+} from "../../../assets/icons/icons";
 import styles from "./Skill.module.css";
 
 const icons = {
@@ -58,22 +59,27 @@ const icons = {
   Redux,
   ReactIcon,
   HTML5,
+  CSS,
   TypeScript,
   Java,
   JavaScript,
 };
 
 const Skill = ({ skill }) => {
-  const IconComponent = icons[skill.img]; 
+  const IconComponent = icons[skill.img];
 
   return (
-    <div className={styles.skillContainer}>
-      <h4>{skill.name}</h4>
-      {IconComponent ? <IconComponent /> : null} 
+    <div>
+      <h4 className="nes-text is-primary">{skill.name}</h4>
+      <div className={`${styles.skillContainer} nes-container is-rounded`}>
+        {IconComponent ? (
+          <div className={`${styles.icon} `}>
+            <IconComponent />
+          </div>
+        ) : null}
+      </div>
     </div>
   );
 };
 
 export default Skill;
-
-
