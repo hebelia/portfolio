@@ -357,10 +357,7 @@
           "name": "Active listening",
           "img": "listen"
         },
-        {
-          "name": "Teamwork & Empathy",
-          "img": "team"
-        },
+        
         {
           "name": "Accountability",
           "img": "accountability"
@@ -368,6 +365,10 @@
         {
           "name": "Perseverance",
           "img": "perseverance"
+        },
+        {
+          "name": "Teamwork & Empathy",
+          "img": "team"
         }
       ]
     }

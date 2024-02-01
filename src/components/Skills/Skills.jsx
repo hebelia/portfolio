@@ -1,6 +1,7 @@
 import React from "react";
 import "devicon/devicon.min.css";
 import "nes.css/css/nes.css";
+import styles from "./Skills.module.css";
 
 import useTranslation from "../../hooks/useTranslation";
 import Skill from "./Skill/Skill";
@@ -10,26 +11,37 @@ const Skills = () => {
 
   const renderSkillSection = (section) => {
     return (
-      <>
-        <h2>{section.title}</h2>
-        {section.list.map((skill, index) => (
-          <Skill key={index} skill={skill} />
-        ))}
-      </>
+      <div>
+        <h1 className={styles.skillsTitle}>{section.title}</h1>
+        <div className={styles.skillGroup}>
+          {section.list.map((skill, index) => (
+            <Skill key={index} skill={skill} />
+          ))}
+        </div>
+      </div>
     );
   };
   return (
-    <div>
+    <>
       <h1>{t.skills && t.skills.title}</h1>
       {t.skills && (
         <>
-          {renderSkillSection(t.skills.tech)}
-          {renderSkillSection(t.skills.frameworks)}
-          {renderSkillSection(t.skills.tools)}
-          {renderSkillSection(t.skills.soft)}
+          <div className={styles.containerContainer}>
+            {renderSkillSection(t.skills.tech)}
+          </div>
+          <div className={styles.containerContainer}>
+            {renderSkillSection(t.skills.frameworks)}
+          </div>
+          <div className={styles.containerContainer}>
+            {" "}
+            {renderSkillSection(t.skills.tools)}
+          </div>
+          <div className={styles.containerContainer}>
+            {renderSkillSection(t.skills.soft)}
+          </div>
         </>
       )}
-    </div>
+    </>
   );
 };
 

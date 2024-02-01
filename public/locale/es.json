@@ -356,10 +356,7 @@
           "name": "Escucha activa",
           "img": "listen"
         },
-        {
-          "name": "Trabajo en equipo & Empatía",
-          "img": "team"
-        },
+        
         {
           "name": "Responsabilidad",
           "img": "accountability"
@@ -367,6 +364,10 @@
         {
           "name": "Perseverancia",
           "img": "perseverance"
+        },
+        {
+          "name": "Trabajo en equipo & Empatía",
+          "img": "team"
         }
       ]
     }

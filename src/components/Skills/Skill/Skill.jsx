@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import "devicon/devicon.min.css";
 import "nes.css/css/nes.css";
@@ -68,15 +68,27 @@ const icons = {
 const Skill = ({ skill }) => {
   const IconComponent = icons[skill.img];
 
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowTooltip(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowTooltip(false);
+  };
+  
   return (
-    <div>
-      <h4 className="nes-text is-primary">{skill.name}</h4>
+    <div className={styles.container} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <div className={`${styles.skillContainer} nes-container is-rounded`}>
-        {IconComponent ? (
-          <div className={`${styles.icon} `}>
+        {IconComponent && (
+          <div className={`${styles.icon}`}>
             <IconComponent />
+            {/* {showTooltip && (
+              <div className={styles.tooltip}>{skill.name}</div>
+            )} */}
           </div>
-        ) : null}
+        )}
       </div>
     </div>
   );

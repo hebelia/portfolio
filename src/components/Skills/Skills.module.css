@@ -1,0 +1,16 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.skillGroup {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skillsTitle{
+
+}
+
