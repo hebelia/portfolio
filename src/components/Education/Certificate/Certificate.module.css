@@ -1,0 +1,24 @@
+.certificatesContainer {
+  border: 5px solid;
+  width: 100%;
+}
+.topVisible {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border-bottom: 5px solid; */
+}
+
+.buttons a {
+  color: #24a077;
+  text-decoration: none;
+}
+
+.dropdown {
+  border: none;
+  background-color: transparent;
+  color: #24a077;
+}
+
+.dropdown :hover {
+}

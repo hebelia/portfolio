@@ -40,10 +40,10 @@ export default function Home() {
       {/* <Nav /> */}
       <Profile />
       {/* <Projects/> */}
-      {/* <Certificates/> */}
+      <Certificates />
       {/* <Volunteering/> */}
 
-      {/* <Skills /> */}
+      <Skills />
       {/* <Button /> */}
       {/* <Contact /> */}
     </main>

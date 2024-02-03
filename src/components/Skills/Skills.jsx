@@ -6,6 +6,7 @@ import { ThemeContext } from "@/hooks/themeContext";
 import useTranslation from "../../hooks/useTranslation";
 import Skill from "./Skill/Skill";
 
+
 const Skills = () => {
   const { t, switchLanguage } = useTranslation();
   const { theme } = useContext(ThemeContext);
