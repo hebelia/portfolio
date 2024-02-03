@@ -10,7 +10,24 @@
   flex-wrap: wrap;
 }
 
-.skillsTitle{
-
+.skillsTitle {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.skillsTitle h2 {
+  display: flex;
+  align-items: center;
 }
 
+.inverted {
+  filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+}
+.titleDiv {
+  display: flex;
+  flex-direction: row;
+}

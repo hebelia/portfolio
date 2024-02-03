@@ -5,9 +5,9 @@
   /* background-color: teal; */
   max-width: fit-content;
   padding: 0;
-  -webkit-box-shadow: 16px 15px 20px -13px rgba(0, 0, 0, 0.54);
+  /* -webkit-box-shadow: 16px 15px 20px -13px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 16px 15px 20px -13px rgba(0, 0, 0, 0.54);
-  box-shadow: 16px 15px 20px -13px rgba(0, 0, 0, 0.54);
+  box-shadow: 16px 15px 20px -13px rgba(0, 0, 0, 0.54); */
 }
 
 .skillContainer:hover {
@@ -18,9 +18,5 @@
 }
 
 .inverted {
-  max-width: fit-content;
-  padding: 0;
   filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
 }
-
-

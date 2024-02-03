@@ -43,9 +43,9 @@ export default function Home() {
       {/* <Certificates/> */}
       {/* <Volunteering/> */}
 
-      <Skills />
-      <Button />
-      <Contact />
+      {/* <Skills /> */}
+      {/* <Button /> */}
+      {/* <Contact /> */}
     </main>
   );
 }

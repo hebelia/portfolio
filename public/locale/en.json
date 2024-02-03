@@ -276,6 +276,10 @@
           "img": "Redux"
         },
         {
+          "name": "NextJS",
+          "img": "NextJS"
+        },
+        {
           "name": "Angular",
           "img": "Angular"
         },
@@ -357,7 +361,7 @@
           "name": "Active listening",
           "img": "listen"
         },
-        
+
         {
           "name": "Accountability",
           "img": "accountability"

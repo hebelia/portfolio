@@ -275,6 +275,10 @@
           "img": "Redux"
         },
         {
+          "name": "NextJS",
+          "img": "NextJS"
+        },
+        {
           "name": "Angular",
           "img": "Angular"
         },

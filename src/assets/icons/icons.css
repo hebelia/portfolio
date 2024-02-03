@@ -7,6 +7,10 @@
   height: 100%;
 }
 
+.inverted {
+  filter: drop-shadow(0 0 0.3rem #ffffff70);
+}
+
 @media (max-width: 768px) {
   .icons {
     font-size: 1rem;

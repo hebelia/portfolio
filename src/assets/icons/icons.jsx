@@ -1,7 +1,7 @@
 /* @jsxImportSource react */
 // import React from "react";
 import styles from "./icons.css";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import "devicon/devicon.min.css";
 
 export const postman = () => {
@@ -3663,77 +3663,201 @@ export const logo = () => {
 // ------------------------------------ devicons
 
 export const JavaScript = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-javascript-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-javascript-plain colored icons"
+    ></i>
+  );
 };
 
 export const Java = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-java-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-java-plain colored icons"
+    ></i>
+  );
 };
 
 export const TypeScript = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-typescript-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-typescript-plain colored icons"
+    ></i>
+  );
 };
 
 export const HTML5 = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-html5-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-html5-plain colored icons"
+    ></i>
+  );
 };
 
 export const CSS = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-css3-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-css3-plain colored icons"
+    ></i>
+  );
 };
 
 export const ReactIcon = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-react-original colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-react-original colored icons"
+    ></i>
+  );
 };
 
 export const Redux = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-redux-original colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-redux-original colored icons"
+    ></i>
+  );
 };
 
 export const Angular = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-angularjs-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-angularjs-plain colored icons"
+    ></i>
+  );
 };
 
 export const Node = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-nodejs-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-nodejs-plain colored icons"
+    ></i>
+  );
 };
 
 export const Express = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-express-original colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-express-original colored icons"
+    ></i>
+  );
 };
 
 export const Sequelize = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-sequelize-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-sequelize-plain colored icons"
+    ></i>
+  );
 };
 
 export const Tailwind = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-tailwindcss-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-tailwindcss-plain colored icons"
+    ></i>
+  );
 };
 
 export const SpringBoot = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-spring-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-spring-plain colored icons"
+    ></i>
+  );
 };
 
 export const GoogleCloud = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-googlecloud-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-googlecloud-plain colored icons"
+    ></i>
+  );
 };
 
 export const MySQL = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-mysql-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-mysql-plain colored icons"
+    ></i>
+  );
 };
 
 export const PostgreSQL = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-postgresql-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-postgresql-plain colored icons"
+    ></i>
+  );
 };
 
 export const Git = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-git-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-git-plain colored icons"
+    ></i>
+  );
 };
 
 export const Trello = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-trello-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-trello-plain colored icons"
+    ></i>
+  );
 };
 
 export const Firebase = () => {
-  return <i style={{ fontSize: '4rem' }} id="icon" className="devicon-firebase-plain colored icons"></i>;
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      className="devicon-firebase-plain colored icons"
+    ></i>
+  );
+};
+
+export const NextJS = () => {
+  return (
+    <i
+      style={{ fontSize: "4rem" }}
+      id="icon"
+      class="devicon-nextjs-original colored icons"
+    ></i>
+  );
 };

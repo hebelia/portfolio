@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Image from "next/image";
 import "devicon/devicon.min.css";
 import "nes.css/css/nes.css";
@@ -31,9 +31,10 @@ import {
   TypeScript,
   Java,
   JavaScript,
+  NextJS,
 } from "../../../assets/icons/icons";
 import styles from "./Skill.module.css";
-
+import { ThemeContext } from "@/hooks/themeContext";
 const icons = {
   perseverance,
   accountability,
@@ -63,6 +64,7 @@ const icons = {
   TypeScript,
   Java,
   JavaScript,
+  NextJS,
 };
 
 const Skill = ({ skill }) => {
@@ -77,13 +79,21 @@ const Skill = ({ skill }) => {
   const handleMouseLeave = () => {
     setShowTooltip(false);
   };
-  
+  const { theme } = useContext(ThemeContext);
+  const invertedClassName = theme === "night" ? "is-dark" : "";
+
   return (
-    <div className={styles.container} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <div className={`${styles.skillContainer} nes-container is-rounded`}>
+    <div
+      className={`${styles.container}`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div
+        className={`${styles.skillContainer} nes-container is-rounded  ${invertedClassName}`}
+      >
         {IconComponent && (
           <div className={`${styles.icon}`}>
-            <IconComponent />
+            <IconComponent/>
             {/* {showTooltip && (
               <div className={styles.tooltip}>{skill.name}</div>
             )} */}
