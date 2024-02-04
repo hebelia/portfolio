@@ -1,5 +1,5 @@
 .certificatesContainer {
-  border: 5px solid;
+  border: 3px solid;
   width: 100%;
 }
 .topVisible {
@@ -8,17 +8,123 @@
   justify-content: space-between;
   /* border-bottom: 5px solid; */
 }
+.title {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
 .buttons a {
-  color: #24a077;
+  color: var(--main-color);
   text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .dropdown {
   border: none;
   background-color: transparent;
-  color: #24a077;
+  color: var(--main-color);
 }
 
-.dropdown :hover {
+.buttons a:hover,
+.dropdown:hover {
+  color: var(--hover-color);
+}
+
+.dropdown button,
+.dropdown [type="button"],
+.dropdown [type="reset"],
+.dropdown [type="submit"] {
+  -webkit-appearance: none;
+}
+
+.buttons button::-moz-focus-inner,
+.buttons [type="button"]::-moz-focus-inner,
+.buttons [type="reset"]::-moz-focus-inner,
+.buttons [type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+.buttons button:focus {
+  outline: none;
+  outline: none;
+}
+
+.bottom {
+  border-top: 2px solid;
+}
+.entityDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.customBadge {
+  text-wrap: wrap;
+  font-size: 1rem;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.badgesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pixelArtBadge {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  margin: 3px;
+  color: black;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  text-align: center;
+  /* background-color: #4dd3a6 !important; */
+}
+
+.pixelArtBadge::before,
+.pixelArtBadge::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #0000,
+    #0000 1px,
+    #000 2px,
+    #000 3px
+  );
+}
+
+.pixelArtBadge::before {
+  left: 0;
+}
+
+.pixelArtBadge::after {
+  right: 0;
+}
+
+.entity {
+  color: var(--main-color);
+}
+
+@media (max-width: 700px) {
+  .buttons {
+    margin-left: 10px;
+  }
+  .entityDate {
+    flex-direction: column;
+  }
 }

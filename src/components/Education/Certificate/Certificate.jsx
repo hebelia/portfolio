@@ -4,8 +4,9 @@ import "nes.css/css/nes.css";
 import styles from "./Certificate.module.css";
 
 import { ThemeContext } from "@/hooks/themeContext";
+import { Center } from "@react-three/drei";
 
-const badgeColors = ["is-primary", "is-success", "is-warning", "is-error"];
+const badgeColors = ["#209CF1", "#92CC41", "#F7D51D", "#E76E55", "#FFFFFF"];
 
 const Certificate = ({ certificate }) => {
   const { theme } = useContext(ThemeContext);
@@ -24,10 +25,12 @@ const Certificate = ({ certificate }) => {
     setRotateButton(!rotateButton);
   };
   return (
-    <div className={styles.certificatesContainer}>
+    <div
+      className={`nes-container is-rounded ${invertedClassName} ${styles.certificatesContainer}`}
+    >
       <div className={styles.topVisible}>
-        <div>
-          <h3>{certificate.title}</h3>
+        <div className={styles.title}>
+          <h3 style={{ margin: "0" }}>{certificate.title}</h3>
         </div>
         <div className={styles.buttons}>
           {certificate.link && (
@@ -67,7 +70,7 @@ const Certificate = ({ certificate }) => {
             >
               <path
                 fill="currentColor"
-                d="M7 16H5v-2h2v-2h2v-2h2V8h2v2h2v2h2v2h2v2h-2v-2h-2v-2h-2v-2h-2v2H9v2H7z"
+                d="M7 8H5v2h2v2h2v2h2v2h2v-2h2v-2h2v-2h2V8h-2v2h-2v2h-2v2h-2v-2H9v-2H7z"
               />
             </svg>
           </button>
@@ -77,26 +80,29 @@ const Certificate = ({ certificate }) => {
       {/* hidden */}
       {/* Toggle visibility based on showDetails state */}
       {showDetails && (
-        <>
-          <div>
-            <p>{certificate.entity}</p>
-          </div>
-          <div>
-            <p>
+        <div className={styles.bottom}>
+          <div className={styles.entityDate}>
+            <div className={styles.entity}>{certificate.entity}</div>
+            <div>
               {certificate.dateText} {certificate.date}
-            </p>
+            </div>
           </div>
-          <ul>
+
+          <div className={styles.badgesContainer}>
             {certificate.skills.map((skill, index) => {
               const badgeColor = getRandomBadgeColor();
               return (
-                <div className={`nes-badge ${badgeColor}`} key={index}>
-                  <span className={`${badgeColor}`}>{skill}</span>
+                <div
+                  style={{ backgroundColor: badgeColor }}
+                  className={styles.pixelArtBadge}
+                  key={index}
+                >
+                  <span className={`${badgeColor} `}>{skill}</span>
                 </div>
               );
             })}
-          </ul>
-        </>
+          </div>
+        </div>
       )}
     </div>
   );

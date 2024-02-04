@@ -24,7 +24,7 @@ import Button from "@/components/Button/Button";
 
 //fonts & styles
 import styles from "./page.module.css";
-import { body, title } from "../../public/fonts/fonts";
+// import { body, title } from "../../public/fonts/fonts";
 import "nes.css/css/nes.css";
 
 export default function Home() {
@@ -33,7 +33,8 @@ export default function Home() {
   const { theme, switchTheme } = useContext(ThemeContext);
 
   return (
-    <main className={`${body.className} ${styles.main}`}>
+    <main className={` ${styles.main}`}>
+      {/* ${body.className} */}
       <ModelViewer />
       <Header />
       {/* <Loader /> */}

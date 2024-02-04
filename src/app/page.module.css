@@ -3,7 +3,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  
 */
+
+
 padding: 6rem;
   min-height: 100vh;
   background-color: var(--background-color);
@@ -20,7 +23,7 @@ padding: 6rem;
 /* Mobile */
 @media (max-width: 700px) {
   .main {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 }
 
