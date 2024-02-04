@@ -1,0 +1,7 @@
+.buttons a {
+    color: var(--main-color);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }

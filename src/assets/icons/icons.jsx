@@ -107,7 +107,7 @@ export const nodemailer = () => {
       id="icon"
       viewBox="0 0 512 512"
       version="1.1"
-      fill="#000000"
+      fill="currentColor"
       className="icons"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

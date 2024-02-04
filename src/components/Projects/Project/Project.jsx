@@ -4,8 +4,8 @@ import "nes.css/css/nes.css";
 
 const Project = ({ project }) => {
   return (
-    <div>
-      <h3>{project.name}</h3>
+    <div className=" nes-container with-title is-centered is-rounded">
+      <h3 className="title">{project.name}</h3>
       <p>{project.description}</p>
       <Image src={project.img} alt={project.name} width="100" height="100" />
       {project.deploy && (
