@@ -15,7 +15,7 @@
   height: 3rem;
   align-self: center;
   user-select: none;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
   cursor: pointer;
 }
 
@@ -27,12 +27,13 @@
 
 .carouselArrowLeft:hover,
 .carouselArrowRight:hover {
-  transform: translateX(-10px);
+  /* transform: translateX(-10px); */
+  transform: scale(1.3);
 }
 
-.carouselArrowRight:hover {
+/* .carouselArrowRight:hover {
   transform: translateX(10px);
-}
+} */
 
 @keyframes fadeIn {
   from {
@@ -84,6 +85,6 @@
   outline: none;
 }
 
-.carouselContainer button:hover{
-    color: var(--main-color);
+.carouselContainer button:hover {
+  color: var(--main-color);
 }

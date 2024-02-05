@@ -4,7 +4,7 @@
   /* day theme */
   --background-color-light: #fff;
   --text-color-light: #000;
-  --main-color-light: #24a077;
+  --main-color-light: #3EB489;
   --day-shadow: drop-shadow(0 0 0.3rem #00000070);
 
   /* night theme */
@@ -12,6 +12,7 @@
   --text-color-dark: #fff;
   --main-color-dark: #4dd3a6;
   --night-shadow: drop-shadow(0 0 0.3rem #ffffff70);
+
 
   --base-color: base-color;
   --background-color: background-color;
@@ -65,16 +66,17 @@
   --background-color: var(--background-color-light);
   --text-color: var(--text-color-light);
   --main-color: var(--main-color-light);
-
   --shadow-color: var(--day-shadow);
+
 }
 
 [data-theme="night"] {
   --background-color: var(--background-color-dark);
   --text-color: var(--text-color-dark);
   --main-color: var(--main-color-dark);
-
   --shadow-color: var(--night-shadow);
+
+
 }
 
 html,

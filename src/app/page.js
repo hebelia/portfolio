@@ -45,7 +45,7 @@ export default function Home() {
       {/* <Volunteering/> */}
 
       {/* <Skills /> */}
-      {/* <Certificates /> */}
+      <Certificates />
       {/* <Button /> */}
       {/* <Contact /> */}
     </main>

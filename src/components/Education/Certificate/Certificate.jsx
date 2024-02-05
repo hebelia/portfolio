@@ -6,7 +6,14 @@ import styles from "./Certificate.module.css";
 import { ThemeContext } from "@/hooks/themeContext";
 import { Center } from "@react-three/drei";
 
-const badgeColors = ["#209CF1", "#92CC41", "#F7D51D", "#E76E55", "#FFFFFF"];
+const badgeColors = [
+  "#209CF1",
+  "#92CC41",
+  "#f7d51d",
+  "#E76E55",
+  "#ff72c9",
+  "#db8400",
+];
 
 const Certificate = ({ certificate }) => {
   const { theme } = useContext(ThemeContext);

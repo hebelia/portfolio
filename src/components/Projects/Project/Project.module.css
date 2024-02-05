@@ -1,7 +1,95 @@
+/* structure */
+.projectContainer {
+}
+.projectTop {
+}
+.projectBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 4rem 0 4rem;
+}
+.projectImage {
+}
+.linksBadges {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.links {
+  /* display: flex; */
+  align-items: center;
+}
+.links svg {
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  transform: scale(1.9);
+}
+
+.title {
+  color: var(--main-color) !important;
+  text-shadow: 2px 1px 0px var(--text-color) !important;
+  font-size: 1.3rem !important;
+}
 .buttons a {
-    color: var(--main-color);
-    text-decoration: none;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  color: var(--main-color);
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.badgesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pixelArtBadge {
+  border-top: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
+  position: relative;
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  margin: 3px;
+  color: var(--text-color);
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.pixelArtBadge::before,
+.pixelArtBadge::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #0000,
+    #0000 2px,
+    #000 4px,
+    var(--text-color) 6px
+  );
+}
+
+.pixelArtBadge::before {
+  left: 0;
+}
+
+.pixelArtBadge::after {
+  right: 0;
+}
+
+@media (max-width: 700px) {
+  .projectContainer {
   }
+  .projectTop {
+  }
+  .projectBottom {
+  }
+  .linksBadges {
+  }
+}

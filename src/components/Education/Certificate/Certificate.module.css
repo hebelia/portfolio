@@ -79,13 +79,13 @@
 }
 
 .pixelArtBadge {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
   position: relative;
   display: inline-block;
-  padding: 8px;
+  padding: 0px 10px 0px 10px;
   margin: 3px;
-  color: black;
+  color:var(--text-color);
   font-family: "VT323", monospace;
   font-size: 1.5rem;
   text-align: center;
@@ -102,9 +102,9 @@
   background: repeating-linear-gradient(
     to bottom,
     #0000,
-    #0000 1px,
-    #000 2px,
-    #000 3px
+    #0000 2px,
+    #000 4px,
+    var(--text-color) 6px
   );
 }
 
