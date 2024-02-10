@@ -26,6 +26,13 @@
   margin-right: 32px;
   margin-bottom: 32px;
   transform: scale(1.9);
+  color: var(--main-color);
+}
+.links svg:hover {
+  /* filter: var(--shadow-color); */
+}
+.links a i {
+  color: var(--main-color);
 }
 
 .title {
